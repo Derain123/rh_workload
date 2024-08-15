@@ -1,0 +1,10 @@
+{
+  "name" : "cora-bare",
+  "base" : "bare-base.json",
+    #"host-init" : "build.sh",
+  "bin" : "cora_v1.riscv",
+  "testing" : {
+    "refDir" : "refOutput"
+  }
+
+}

@@ -1,0 +1,10 @@
+{
+  "name" : "pubmed-bare",
+  "base" : "bare-base.json",
+    #"host-init" : "build.sh",
+  "bin" : "pubmed.riscv",
+  "testing" : {
+    "refDir" : "refOutput"
+  }
+
+}

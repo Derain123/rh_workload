@@ -1,0 +1,10 @@
+{
+  "name" : "citeseer-bare",
+  "base" : "bare-base.json",
+    #"host-init" : "build.sh",
+  "bin" : "citeseer_v1.riscv",
+  "testing" : {
+    "refDir" : "refOutput"
+  }
+
+}
