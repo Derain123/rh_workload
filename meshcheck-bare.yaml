@@ -1,0 +1,10 @@
+{
+  "name" : "meshcheck-bare",
+  "base" : "bare-base.json",
+    #"host-init" : "build.sh",
+  "bin" : "meshcheck.riscv",
+  "testing" : {
+    "refDir" : "refOutput"
+  }
+
+}

@@ -1,0 +1,10 @@
+{
+  "name" : "camel-bare",
+  "base" : "bare-base.json",
+    #"host-init" : "build.sh",
+  "bin" : "camelv1.riscv",
+  "testing" : {
+    "refDir" : "refOutput"
+  }
+
+}

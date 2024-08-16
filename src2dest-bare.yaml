@@ -1,0 +1,10 @@
+{
+  "name" : "src2dest-bare",
+  "base" : "bare-base.json",
+    #"host-init" : "build.sh",
+  "bin" : "src2dest.riscv",
+  "testing" : {
+    "refDir" : "refOutput"
+  }
+
+}

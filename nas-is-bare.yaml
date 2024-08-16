@@ -1,0 +1,10 @@
+{
+  "name" : "nas-is-bare",
+  "base" : "bare-base.json",
+    #"host-init" : "build.sh",
+  "bin" : "nas-is.riscv",
+  "testing" : {
+    "refDir" : "refOutput"
+  }
+
+}

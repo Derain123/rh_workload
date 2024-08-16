@@ -1,0 +1,10 @@
+{
+  "name" : "nas-cg-bare",
+  "base" : "bare-base.json",
+    #"host-init" : "build.sh",
+  "bin" : "nas_cg.riscv",
+  "testing" : {
+    "refDir" : "refOutput"
+  }
+
+}

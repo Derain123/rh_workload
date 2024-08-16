@@ -1,0 +1,10 @@
+{
+  "name" : "leastsv-bare",
+  "base" : "bare-base.json",
+    #"host-init" : "build.sh",
+  "bin" : "leastsv.riscv",
+  "testing" : {
+    "refDir" : "refOutput"
+  }
+
+}
