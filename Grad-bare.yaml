@@ -1,0 +1,10 @@
+{
+  "name" : "Grad-bare",
+  "base" : "bare-base.json",
+    #"host-init" : "build.sh",
+  "bin" : "Grad.riscv",
+  "testing" : {
+    "refDir" : "refOutput"
+  }
+
+}
